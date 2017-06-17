@@ -1,14 +1,8 @@
-*.*-e
-.*-e
-*-e
-*.a
-*.d
-*.out
-.site/
-site/
+mock-server
+mock-client
+mock-plugin.so
+csi/spec.md
 vendor/
-.project
-
 
 # Created by https://www.gitignore.io
 

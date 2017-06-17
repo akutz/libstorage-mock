@@ -1,9 +1,0 @@
-hash: 52aa99c9bd3dd676f57998c8e299d6b7fad988215196a1ca52f6b097daf0deae
-updated: 2017-06-12T12:18:00.669014411-05:00
-imports:
-- name: github.com/codedellemc/libstorage
-  version: 3055d6ab94a235678575039e7954fe2065234677
-  repo: https://github.com/akutz/libstorage
-  subpackages:
-  - api/types/v1
-testImports: []

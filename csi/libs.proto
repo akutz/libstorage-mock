@@ -1,0 +1,23 @@
+syntax = "proto3";
+package csi;
+import "csi.proto";
+service LibStorage {
+  rpc InitPlugin (InitPluginRequest)
+    returns (InitPluginResponse) {}
+}
+
+message InitPluginRequest {
+  // Parameters used to initialize the plugin.
+  map<string, string> parameters = 1;
+}
+
+message InitPluginResponse {
+  message Result {
+  }
+
+  // One of the following fields MUST be specified.
+  oneof reply {
+    Result result = 1;
+    Error error = 2;
+  }
+}
